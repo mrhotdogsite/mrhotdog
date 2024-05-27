@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}    
+
+.alert {
+    position: relative;
+    padding: 15px 10px;
+    margin: 10px auto;
+    background-color: #0CAFFF;
+    color: white;
+}
+  
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+  
+.closebtn:hover {
+    color: black;
+}
+
+.main{
+    position: relative;
+    margin: 50px;
+}
+
+.hero-text{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.menu-btn{
+    background-color: #FF8733;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.menu-btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .main{
+        margin: 50px auto;
+    }
+    .hero-text {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 6px;
+    }
+
+    .alert{
+        display: none;
+    }
+    .menu-btn{
+        padding: 3px 5px;
+        font-size: 10px;
+        width: 100%;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .example {background: green;}
+  }
+  
